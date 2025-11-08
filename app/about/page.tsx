@@ -103,17 +103,75 @@ export default function AboutPage() {
                 <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-[40rem] md:h-89 lg:h-[22rem] object-cover" />
+                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-[22rem] md:h-64 lg:h-[22rem] object-cover" />
               </div>
             </div>
 
             {/* Column 3 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-64 object-cover" />
+                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
                 <img src="/images/gal6.png" alt="CSR 6" className="w-full h-64 object-cover" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vision & Mission */}
+      <section id="purpose" className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-6">
+            <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Purpose & Core Values</span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Vision</h3>
+              <p className="text-gray-700">Our purpose—to positively impact lives, transform communities and make the world a better place—unites professionals working collaboratively across a broad range of disciplines.</p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Mission</h3>
+              <p className="text-gray-700 mb-6">Our core values recognize that our business success is founded upon a commitment to certain principles:</p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="border-t pt-4">
+                  <div className="text-sm font-semibold">01 — Innovation</div>
+                  <div className="text-sm text-gray-600">We embrace cutting-edge technologies to solve real-world challenges and drive sustainable growth.</div>
+                </div>
+
+                <div className="border-t pt-4">
+                  <div className="text-sm font-semibold">02 — Integrity</div>
+                  <div className="text-sm text-gray-600">We operate with transparency, honesty, and accountability in all our partnerships and processes.</div>
+                </div>
+
+                <div className="border-t pt-4">
+                  <div className="text-sm font-semibold">03 — Empowerment</div>
+                  <div className="text-sm text-gray-600">We uplift communities, clients, and employees by providing tools, knowledge, and energy to thrive.</div>
+                </div>
+
+                <div className="border-t pt-4">
+                  <div className="text-sm font-semibold">04 — Sustainability</div>
+                  <div className="text-sm text-gray-600">We are committed to environmentally responsible practices that protect future generations.</div>
+                </div>
+
+                <div className="border-t pt-4">
+                  <div className="text-sm font-semibold">05 — Collaboration</div>
+                  <div className="text-sm text-gray-600">We believe in the power of partnerships—working together across industries, sectors, and borders to achieve shared success.</div>
+                </div>
+
+                <div className="border-t pt-4">
+                  <div className="text-sm font-semibold">06 — Excellence</div>
+                  <div className="text-sm text-gray-600">We pursue the highest standards in engineering, service delivery, and operational performance.</div>
+                </div>
+
+                <div className="border-t pt-4 md:col-span-2">
+                  <div className="text-sm font-semibold">07 — Local Impact</div>
+                  <div className="text-sm text-gray-600">We prioritize indigenous participation, local sourcing, and community development in every project.</div>
+                </div>
               </div>
             </div>
           </div>
