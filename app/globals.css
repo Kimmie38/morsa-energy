@@ -89,7 +89,7 @@ body {
 
 /* dotted background similar to reference */
 .dotted-bg {
-  background-image: radial-gradient(rgba(251, 234, 233, 0.6) 2px, transparent 2px);
+  background-image: radial-gradient(#FBEAE9 4px, transparent 4px);
   background-size: 28px 28px;
   padding: 2rem;
   border-radius: 1rem;
