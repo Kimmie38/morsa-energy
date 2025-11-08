@@ -87,23 +87,23 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/gal1.png" alt="CSR 1" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image src="/images/gal1.png" alt="CSR 1" width={800} height={800} className="w-full h-64 md:h-56 lg:h-64 object-cover" />
             </div>
-            <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/gal2.png" alt="CSR 2" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image src="/images/gal2.png" alt="CSR 2" width={800} height={800} className="w-full h-64 md:h-56 lg:h-64 object-cover" />
             </div>
-            <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/gal3.png" alt="CSR 3" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image src="/images/gal3.png" alt="CSR 3" width={800} height={800} className="w-full h-64 md:h-56 lg:h-64 object-cover" />
             </div>
-            <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/gal4.png" alt="CSR 4" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image src="/images/gal4.png" alt="CSR 4" width={800} height={800} className="w-full h-64 md:h-56 lg:h-64 object-cover" />
             </div>
-            <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/gal5.png" alt="CSR 5" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image src="/images/gal5.png" alt="CSR 5" width={800} height={800} className="w-full h-64 md:h-56 lg:h-64 object-cover" />
             </div>
-            <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/gal6.png" alt="CSR 6" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            <div className="overflow-hidden rounded-3xl shadow-lg">
+              <Image src="/images/gal6.png" alt="CSR 6" width={800} height={800} className="w-full h-64 md:h-56 lg:h-64 object-cover" />
             </div>
           </div>
         </div>
