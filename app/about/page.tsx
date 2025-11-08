@@ -127,7 +127,7 @@ export default function AboutPage() {
             <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Purpose & Core Values</span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          <div className="grid grid-cols-1 gap-8 items-start">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Vision</h3>
               <p className="text-gray-700">Our purpose—to positively impact lives, transform communities and make the world a better place—unites professionals working collaboratively across a broad range of disciplines.</p>
