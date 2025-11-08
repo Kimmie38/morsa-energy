@@ -19,17 +19,17 @@ export default function MiningPage() {
       <section className="mining-gallery-section py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mining-gallery dotted-bg">
-            <div className="mining-gallery-item">
-              <img src="/images/img1.png" alt="mining 1" className="w-full h-full object-cover rounded-2xl" />
+            <div className="w-full max-w-md overflow-hidden rounded-xl shadow-lg [clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%)] mining-gallery-item">
+              <img src="/images/img1.png" alt="Mining site" className="object-cover w-full h-full" />
             </div>
-            <div className="mining-gallery-item">
-              <img src="/images/img2.png" alt="mining 2" className="w-full h-full object-cover rounded-2xl" />
+            <div className="w-full max-w-md overflow-hidden rounded-xl shadow-lg [clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%)] mining-gallery-item">
+              <img src="/images/img2.png" alt="Mining site" className="object-cover w-full h-full" />
             </div>
-            <div className="mining-gallery-item">
-              <img src="/images/img3.png" alt="mining 3" className="w-full h-full object-cover rounded-2xl" />
+            <div className="w-full max-w-md overflow-hidden rounded-xl shadow-lg [clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%)] mining-gallery-item">
+              <img src="/images/img3.png" alt="Mining site" className="object-cover w-full h-full" />
             </div>
-            <div className="mining-gallery-item">
-              <img src="/images/img4.png" alt="mining 4" className="w-full h-full object-cover rounded-2xl" />
+            <div className="w-full max-w-md overflow-hidden rounded-xl shadow-lg [clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%)] mining-gallery-item">
+              <img src="/images/img4.png" alt="Mining site" className="object-cover w-full h-full" />
             </div>
           </div>
         </div>
