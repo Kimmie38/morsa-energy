@@ -110,7 +110,7 @@ export default function AboutPage() {
             {/* Column 3 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-64 object-cover" />
+                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
                 <img src="/images/gal6.png" alt="CSR 6" className="w-full h-64 object-cover" />
@@ -205,6 +205,46 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Leadership Team */}
+      <section id="team" className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-8">
+            <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Our Team</span>
+            <h2 className="mt-6 text-3xl md:text-4xl font-bold">Meet Our Leadership Team</h2>
+            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Dedicated professionals leading the charge in engineering reliable infrastructure for a sustainable future.</p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 items-start">
+            {/* Card 1 */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={600} height={800} className="w-full h-96 object-cover" />
+              <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <div className="text-white font-semibold">Olukayode Ramos</div>
+                <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-96 object-cover" />
+              <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <div className="text-white font-semibold">Daniel Monwuba</div>
+                <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-96 object-cover" />
+              <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
+                <div className="text-xs text-white/80">Group Project Manager</div>
+              </div>
             </div>
           </div>
         </div>
