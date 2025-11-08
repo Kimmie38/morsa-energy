@@ -24,9 +24,9 @@ export default function AboutPage() {
           <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Who We Are</span>
         </div>
 
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div>
-            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">Empowering Industries to Solve Everyday Challenges</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-6">Empowering Industries to Solve Everyday Challenges</h2>
             <p className="text-gray-700 mb-6">
               Mosra Energy Limited Nigeria (MEL) is a well-established coal
               mining company with over 15 years experience in the industry. We
@@ -36,8 +36,8 @@ export default function AboutPage() {
               and Ogbadibo LGA, Benue State.
             </p>
 
-            <div className="mt-6 flex items-center gap-4">
-              <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={64} height={64} className="rounded-full object-cover" />
+            <div className="mt-8 flex items-center gap-4">
+              <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={56} height={56} className="rounded-full object-cover" />
               <div>
                 <div className="font-semibold">Olukayode Ramos</div>
                 <div className="text-sm text-gray-500">CEO, Mosra Energy Limited</div>
@@ -45,32 +45,8 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="rounded-lg overflow-hidden shadow-lg">
-            <Image src="/images/Abt-image.png" alt="Mining operations" width={1200} height={700} className="w-full h-auto object-cover" />
-          </div>
-        </section>
-
-        {/* Optional additional sections - gallery */}
-        <section className="mt-12">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <div className="overflow-hidden rounded-lg">
-              <Image src="/images/gal1.png" alt="gallery 1" width={600} height={400} className="w-full h-auto object-cover" />
-            </div>
-            <div className="overflow-hidden rounded-lg">
-              <Image src="/images/gal2.png" alt="gallery 2" width={600} height={400} className="w-full h-auto object-cover" />
-            </div>
-            <div className="overflow-hidden rounded-lg">
-              <Image src="/images/gal3.png" alt="gallery 3" width={600} height={400} className="w-full h-auto object-cover" />
-            </div>
-            <div className="overflow-hidden rounded-lg">
-              <Image src="/images/gal4.png" alt="gallery 4" width={600} height={400} className="w-full h-auto object-cover" />
-            </div>
-            <div className="overflow-hidden rounded-lg">
-              <Image src="/images/gal5.png" alt="gallery 5" width={600} height={400} className="w-full h-auto object-cover" />
-            </div>
-            <div className="overflow-hidden rounded-lg">
-              <Image src="/images/gal6.png" alt="gallery 6" width={600} height={400} className="w-full h-auto object-cover" />
-            </div>
+          <div className="overflow-hidden rounded-2xl shadow">
+            <Image src="/images/Abt-image.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
           </div>
         </section>
       </main>
