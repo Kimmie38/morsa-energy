@@ -219,7 +219,7 @@ export default function AboutPage() {
             <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Dedicated professionals leading the charge in engineering reliable infrastructure for a sustainable future.</p>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {/* Card 1 */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
