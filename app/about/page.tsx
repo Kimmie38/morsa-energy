@@ -37,7 +37,9 @@ export default function AboutPage() {
             </p>
 
             <div className="mt-8 flex items-center gap-4">
-              <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={56} height={56} className="rounded-full object-cover" />
+              <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0">
+                <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={56} height={56} className="object-cover w-full h-full" />
+              </div>
               <div>
                 <div className="font-semibold">Olukayode Ramos</div>
                 <div className="text-sm text-gray-500">CEO, Mosra Energy Limited</div>
@@ -46,7 +48,7 @@ export default function AboutPage() {
           </div>
 
           <div className="overflow-hidden rounded-2xl shadow">
-            <Image src="/images/Abt-image1.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
+            <Image src="/images/Abt-image.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
           </div>
         </section>
       </main>
