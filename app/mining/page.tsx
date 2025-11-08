@@ -20,16 +20,16 @@ export default function MiningPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mining-gallery dotted-bg">
             <div className="mining-gallery-item">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F4fc66ae6bdd546dc978b24869a5c88d7%2F552c20dd9d9144aea183feb53ac3dc9f?format=webp&width=800" alt="mining 1" className="w-full h-full object-cover rounded-2xl" />
+              <img src="/images/img1.png" alt="mining 1" className="w-full h-full object-cover rounded-2xl" />
             </div>
             <div className="mining-gallery-item">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F4fc66ae6bdd546dc978b24869a5c88d7%2F552c20dd9d9144aea183feb53ac3dc9f?format=webp&width=800" alt="mining 2" className="w-full h-full object-cover rounded-2xl" />
+              <img src="/images/img2.png" alt="mining 2" className="w-full h-full object-cover rounded-2xl" />
             </div>
             <div className="mining-gallery-item">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F4fc66ae6bdd546dc978b24869a5c88d7%2F552c20dd9d9144aea183feb53ac3dc9f?format=webp&width=800" alt="mining 3" className="w-full h-full object-cover rounded-2xl" />
+              <img src="/images/img3.png" alt="mining 3" className="w-full h-full object-cover rounded-2xl" />
             </div>
             <div className="mining-gallery-item">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F4fc66ae6bdd546dc978b24869a5c88d7%2F552c20dd9d9144aea183feb53ac3dc9f?format=webp&width=800" alt="mining 4" className="w-full h-full object-cover rounded-2xl" />
+              <img src="/images/img4.png" alt="mining 4" className="w-full h-full object-cover rounded-2xl" />
             </div>
           </div>
         </div>
