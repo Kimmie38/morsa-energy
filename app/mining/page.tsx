@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MiningPage() {
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-white text-gray-900 min-h-screen">
       {/* Hero banner */}
       <section className="bg-white py-12">
         <div className="max-w-7xl mx-auto px-6">
