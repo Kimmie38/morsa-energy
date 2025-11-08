@@ -52,3 +52,33 @@ body {
     column-count: 2;
   }
 }
+
+/* Mining gallery styles */
+.mining-gallery {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  padding: 1rem 0.25rem;
+  -webkit-overflow-scrolling: touch;
+}
+.mining-gallery::-webkit-scrollbar { height: 10px; }
+.mining-gallery::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 9999px; }
+.mining-gallery-item {
+  flex: 0 0 260px;
+  height: 160px;
+  background: transparent;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(15,23,42,0.08);
+}
+@media (min-width: 768px) {
+  .mining-gallery-item { flex: 0 0 320px; height: 200px; }
+}
+
+/* dotted background similar to reference */
+.dotted-bg {
+  background-image: radial-gradient(rgba(251, 234, 233, 0.6) 2px, transparent 2px);
+  background-size: 28px 28px;
+  padding: 2rem;
+  border-radius: 1rem;
+}
