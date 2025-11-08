@@ -53,6 +53,26 @@ export default function AboutPage() {
         </section>
       </main>
 
+      {/* Engineering section */}
+      <section id="engineering" className="bg-white py-12">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-full object-cover rounded-2xl" />
+            </div>
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Engineering Sustainable Growth</h3>
+              <p className="text-gray-700 mb-4">
+                Mosra Energy Limited holds exploration, quarry, and mining licences for coal (lignite and sub-bituminous), limestone, granite, and iron ore across Nigeria — with active projects in Delta, Kogi, Benue, Nasarawa, Kaduna, and Edo States. Proven reserves include 117.08 MT of lignite in Delta and 11.75 MT of sub-bituminous coal in Kogi, sufficient to generate power for over 50 years.
+              </p>
+              <p className="text-gray-700">
+                We combine multidisciplinary expertise, advanced equipment, and rapid mobilisation to deliver tailored engineering and management solutions. Our goal is to set the benchmark in sustainable energy and infrastructure development, supporting communities and driving industrial growth. Key competencies include power system design, transmission and distribution engineering, substation design, and technical advisory for major energy assets and acquisitions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="bg-gray-50 py-8 mt-12">
         <div className="max-w-7xl mx-auto px-6 text-center text-sm text-gray-600">© {new Date().getFullYear()} Mosra Energy Limited — All rights reserved</div>
       </footer>
