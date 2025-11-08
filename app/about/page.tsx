@@ -174,29 +174,33 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Bottom row: 3 items */}
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-sm text-gray-700">
-                <div className="text-xs text-gray-400 mb-3">05</div>
-                <div className="border-t border-gray-200 pt-4">
-                  <div className="font-semibold">Collaboration</div>
-                  <div className="text-sm text-gray-600">We believe in the power of partnerships—working together across industries, sectors, and borders to achieve shared success.</div>
-                </div>
-              </div>
+            {/* Bottom row: 3 items centered */}
+            <div className="mt-8">
+              <div className="max-w-3xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="text-sm text-gray-700">
+                    <div className="text-xs text-gray-400 mb-3">05</div>
+                    <div className="border-t border-gray-200 pt-4">
+                      <div className="font-semibold">Collaboration</div>
+                      <div className="text-sm text-gray-600">We believe in the power of partnerships—working together across industries, sectors, and borders to achieve shared success.</div>
+                    </div>
+                  </div>
 
-              <div className="text-sm text-gray-700">
-                <div className="text-xs text-gray-400 mb-3">06</div>
-                <div className="border-t border-gray-200 pt-4">
-                  <div className="font-semibold">Excellence</div>
-                  <div className="text-sm text-gray-600">We pursue the highest standards in engineering, service delivery, and operational performance.</div>
-                </div>
-              </div>
+                  <div className="text-sm text-gray-700">
+                    <div className="text-xs text-gray-400 mb-3">06</div>
+                    <div className="border-t border-gray-200 pt-4">
+                      <div className="font-semibold">Excellence</div>
+                      <div className="text-sm text-gray-600">We pursue the highest standards in engineering, service delivery, and operational performance.</div>
+                    </div>
+                  </div>
 
-              <div className="text-sm text-gray-700">
-                <div className="text-xs text-gray-400 mb-3">07</div>
-                <div className="border-t border-gray-200 pt-4">
-                  <div className="font-semibold">Local Impact</div>
-                  <div className="text-sm text-gray-600">We prioritize indigenous participation, local sourcing, and community development in every project.</div>
+                  <div className="text-sm text-gray-700">
+                    <div className="text-xs text-gray-400 mb-3">07</div>
+                    <div className="border-t border-gray-200 pt-4">
+                      <div className="font-semibold">Local Impact</div>
+                      <div className="text-sm text-gray-600">We prioritize indigenous participation, local sourcing, and community development in every project.</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
