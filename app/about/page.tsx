@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 
 export default function AboutPage() {
@@ -15,19 +14,14 @@ export default function AboutPage() {
             <a href="#csr" className="text-sm font-medium hover:underline">CSR</a>
           </div>
           <div className="md:hidden">
-            <select
-              onChange={(e) => {
-                const v = e.target.value;
-                if (v) location.href = v;
-              }}
-              className="rounded border px-2 py-1 text-sm"
-              aria-label="Navigate sections"
-            >
-              <option value="#">Menu</option>
-              <option value="#about">About</option>
-              <option value="#engineering">Engineering</option>
-              <option value="#csr">CSR</option>
-            </select>
+            <details className="relative">
+              <summary className="rounded border px-3 py-1 text-sm cursor-pointer">Menu</summary>
+              <div className="mt-2 flex flex-col bg-white dark:bg-black border border-gray-100 dark:border-gray-800 rounded shadow-sm p-2">
+                <a href="#about" className="px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 rounded">About</a>
+                <a href="#engineering" className="px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 rounded">Engineering</a>
+                <a href="#csr" className="px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 rounded">CSR</a>
+              </div>
+            </details>
           </div>
         </nav>
       </header>
