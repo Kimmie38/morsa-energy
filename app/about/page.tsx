@@ -58,7 +58,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-112 object-cover rounded-2xl" />
+              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-90 object-cover rounded-2xl" />
             </div>
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Engineering Sustainable Growth</h3>
