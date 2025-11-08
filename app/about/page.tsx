@@ -137,42 +137,70 @@ export default function AboutPage() {
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Mission</h3>
               <p className="text-gray-700 mb-6">Our core values recognize that our business success is founded upon a commitment to certain principles:</p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="border-t pt-4">
-                  <div className="text-sm font-semibold">01 — Innovation</div>
+            <div className="mt-4">
+            {/* Top row: 4 items */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+              {/** Item */}
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">01</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Innovation</div>
                   <div className="text-sm text-gray-600">We embrace cutting-edge technologies to solve real-world challenges and drive sustainable growth.</div>
                 </div>
+              </div>
 
-                <div className="border-t pt-4">
-                  <div className="text-sm font-semibold">02 — Integrity</div>
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">02</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Integrity</div>
                   <div className="text-sm text-gray-600">We operate with transparency, honesty, and accountability in all our partnerships and processes.</div>
                 </div>
+              </div>
 
-                <div className="border-t pt-4">
-                  <div className="text-sm font-semibold">03 — Empowerment</div>
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">03</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Empowerment</div>
                   <div className="text-sm text-gray-600">We uplift communities, clients, and employees by providing tools, knowledge, and energy to thrive.</div>
                 </div>
+              </div>
 
-                <div className="border-t pt-4">
-                  <div className="text-sm font-semibold">04 — Sustainability</div>
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">04</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Sustainability</div>
                   <div className="text-sm text-gray-600">We are committed to environmentally responsible practices that protect future generations.</div>
                 </div>
+              </div>
+            </div>
 
-                <div className="border-t pt-4">
-                  <div className="text-sm font-semibold">05 — Collaboration</div>
+            {/* Bottom row: 3 items */}
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">05</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Collaboration</div>
                   <div className="text-sm text-gray-600">We believe in the power of partnerships—working together across industries, sectors, and borders to achieve shared success.</div>
                 </div>
+              </div>
 
-                <div className="border-t pt-4">
-                  <div className="text-sm font-semibold">06 — Excellence</div>
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">06</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Excellence</div>
                   <div className="text-sm text-gray-600">We pursue the highest standards in engineering, service delivery, and operational performance.</div>
                 </div>
+              </div>
 
-                <div className="border-t pt-4 md:col-span-2">
-                  <div className="text-sm font-semibold">07 — Local Impact</div>
+              <div className="text-sm text-gray-700">
+                <div className="text-xs text-gray-400 mb-3">07</div>
+                <div className="border-t border-gray-200 pt-4">
+                  <div className="font-semibold">Local Impact</div>
                   <div className="text-sm text-gray-600">We prioritize indigenous participation, local sourcing, and community development in every project.</div>
                 </div>
               </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
