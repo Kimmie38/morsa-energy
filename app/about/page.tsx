@@ -103,7 +103,7 @@ export default function AboutPage() {
                 <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-[40rem] md:h-89 lg:h-[40rem] object-cover" />
+                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-[40rem] md:h-89 lg:h-[22rem] object-cover" />
               </div>
             </div>
 
