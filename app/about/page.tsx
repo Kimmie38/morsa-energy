@@ -48,7 +48,7 @@ export default function AboutPage() {
           </div>
 
           <div className="overflow-hidden rounded-2xl shadow">
-            <Image src="/images/Abt-image.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
+            <Image src="/images/Abt-image1.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
           </div>
         </section>
       </main>
