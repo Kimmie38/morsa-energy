@@ -271,6 +271,23 @@ export default function AboutPage() {
                 <div className="text-xs text-white/80">Head, Mineral Exploration</div>
               </div>
             </div>
+
+            {/* Row 3 - more team members */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image src="/images/Ishola.png" alt="Ishola Emmanuel Aderopo" width={600} height={800} className="w-full h-96 object-cover" />
+              <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <div className="text-white font-semibold">Ishola Emmanuel Aderopo</div>
+                <div className="text-xs text-white/80">Plant Manager, Idowa Falola Coal Mines (IFCM), Delta State</div>
+              </div>
+            </div>
+
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image src="/images/Babatunde.png" alt="Babatunde Olanrewaju Emmanuel" width={600} height={800} className="w-full h-96 object-cover" />
+              <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <div className="text-white font-semibold">Engr. Babatunde Olanrewaju Emmanuel</div>
+                <div className="text-xs text-white/80">Plant Manager, Tunde Ramos Coal Mines (TRCM), Kogi State</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
