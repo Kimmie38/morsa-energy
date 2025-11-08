@@ -16,7 +16,7 @@ export default function MiningPage() {
       </section>
 
       {/* Gallery below hero and before main content */}
-     <section className="mining-gallery-section py-12">
+    <section className="mining-gallery-section py-12">
   <div className="max-w-7xl mx-auto px-6">
     <div className="mining-gallery dotted-bg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {[
@@ -27,7 +27,7 @@ export default function MiningPage() {
       ].map((src, index) => (
         <div
           key={index}
-          className="overflow-hidden rounded-2xl shadow-lg [clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_90%)]"
+          className="overflow-hidden rounded-2xl shadow-lg border-l-4 border-yellow-500 [clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_90%)]"
         >
           <img
             src={src}
@@ -39,6 +39,7 @@ export default function MiningPage() {
     </div>
   </div>
 </section>
+
 
 
     </div>
