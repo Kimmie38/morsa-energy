@@ -16,29 +16,30 @@ export default function MiningPage() {
       </section>
 
       {/* Gallery below hero and before main content */}
-      <section className="mining-gallery-section py-12">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="mining-gallery dotted-bg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              "/images/img1.png",
-              "/images/img2.png",
-              "/images/img3.png",
-              "/images/img4.png",
-            ].map((src, index) => (
-              <div
-                key={index}
-                className="overflow-hidden rounded-2xl shadow-lg [clip-path:polygon(0%_0%,100%_10%,100%_100%,0%_90%)]"
-              >
-                <img
-                  src={src}
-                  alt={`mining ${index + 1}`}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-            ))}
-          </div>
+     <section className="mining-gallery-section py-12">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="mining-gallery dotted-bg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {[
+        "/images/img1.png",
+        "/images/img2.png",
+        "/images/img3.png",
+        "/images/img4.png",
+      ].map((src, index) => (
+        <div
+          key={index}
+          className="overflow-hidden rounded-2xl shadow-lg [clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_90%)]"
+        >
+          <img
+            src={src}
+            alt={`mining ${index + 1}`}
+            className="object-cover w-full h-full"
+          />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
     </div>
   );
