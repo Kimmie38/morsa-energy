@@ -86,24 +86,35 @@ export default function AboutPage() {
             <p>We recognize that every community has unique needs, so our programs range from youth empowerment to providing critical resources like food, shelter, and training. Our people take pride in giving back — both through company-led initiatives and personal community involvement.</p>
           </div>
 
-          <div className="csr-masonry">
-            <div className="csr-item">
-              <img src="/images/gal1.png" alt="CSR 1" className="w-full h-64 object-cover" />
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+            {/* Column 1 */}
+            <div className="flex flex-col gap-6">
+              <div className="overflow-hidden rounded-3xl shadow-lg">
+                <img src="/images/gal1.png" alt="CSR 1" className="w-full h-64 object-cover" />
+              </div>
+              <div className="overflow-hidden rounded-3xl shadow-lg">
+                <img src="/images/gal4.png" alt="CSR 4" className="w-full h-64 object-cover" />
+              </div>
             </div>
-            <div className="csr-item">
-              <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
+
+            {/* Column 2 */}
+            <div className="flex flex-col gap-6">
+              <div className="overflow-hidden rounded-3xl shadow-lg">
+                <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
+              </div>
+              <div className="overflow-hidden rounded-3xl shadow-lg">
+                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-64 object-cover" />
+              </div>
             </div>
-            <div className="csr-item">
-              <img src="/images/gal3.png" alt="CSR 3" className="w-full h-64 object-cover" />
-            </div>
-            <div className="csr-item">
-              <img src="/images/gal4.png" alt="CSR 4" className="w-full h-56 object-cover" />
-            </div>
-            <div className="csr-item">
-              <img src="/images/gal5.png" alt="CSR 5" className="w-full h-48 object-cover" />
-            </div>
-            <div className="csr-item">
-              <img src="/images/gal6.png" alt="CSR 6" className="w-full h-56 object-cover" />
+
+            {/* Column 3 */}
+            <div className="flex flex-col gap-6">
+              <div className="overflow-hidden rounded-3xl shadow-lg">
+                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-40 object-cover" />
+              </div>
+              <div className="overflow-hidden rounded-3xl shadow-lg">
+                <img src="/images/gal6.png" alt="CSR 6" className="w-full h-64 object-cover" />
+              </div>
             </div>
           </div>
         </div>
