@@ -58,7 +58,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-90 object-cover rounded-2xl" />
+              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-64 object-cover rounded-2xl" />
             </div>
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Engineering Sustainable Growth</h3>
@@ -68,6 +68,42 @@ export default function AboutPage() {
               <p className="text-gray-700">
                 We combine multidisciplinary expertise, advanced equipment, and rapid mobilisation to deliver tailored engineering and management solutions. Our goal is to set the benchmark in sustainable energy and infrastructure development, supporting communities and driving industrial growth. Key competencies include power system design, transmission and distribution engineering, substation design, and technical advisory for major energy assets and acquisitions.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CSR Section */}
+      <section id="csr" className="py-12">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-6">
+            <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Corporate Social Responsibility</span>
+          </div>
+
+          <div className="text-gray-700 mb-6">
+            <p className="mb-4">At Mosra Energy Limited, we believe in building a vibrant and brighter future for all. Our commitment to sustainability extends beyond projects — it’s rooted in how we support and empower the communities we work with.</p>
+            <p className="mb-4">Through our corporate social responsibility (CSR) initiatives, we invest in community development, education, and essential infrastructure, while promoting skills transfer and sustainable growth.</p>
+            <p>We recognize that every community has unique needs, so our programs range from youth empowerment to providing critical resources like food, shelter, and training. Our people take pride in giving back — both through company-led initiatives and personal community involvement.</p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/gal1.png" alt="CSR 1" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/gal2.png" alt="CSR 2" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/gal3.png" alt="CSR 3" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/gal4.png" alt="CSR 4" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/gal5.png" alt="CSR 5" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
+            </div>
+            <div className="overflow-hidden rounded-2xl">
+              <Image src="/images/gal6.png" alt="CSR 6" width={600} height={400} className="w-full h-48 object-cover rounded-2xl" />
             </div>
           </div>
         </div>
