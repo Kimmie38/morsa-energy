@@ -58,7 +58,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-64 object-cover rounded-2xl" />
+              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-80 object-cover rounded-2xl" />
             </div>
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Engineering Sustainable Growth</h3>
@@ -90,10 +90,10 @@ export default function AboutPage() {
             {/* Column 1 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal1.png" alt="CSR 1" className="w-full h-64 object-cover" />
+                <img src="/images/gal1.png" alt="CSR 1" className="w-full h-70 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal4.png" alt="CSR 4" className="w-full h-64 object-cover" />
+                <img src="/images/gal4.png" alt="CSR 4" className="w-full h-70 object-cover" />
               </div>
             </div>
 
@@ -103,17 +103,17 @@ export default function AboutPage() {
                 <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-40 object-cover" />
+                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-100 object-cover" />
               </div>
             </div>
 
             {/* Column 3 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-64 object-cover" />
+                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-70 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal6.png" alt="CSR 6" className="w-full h-64 object-cover" />
+                <img src="/images/gal6.png" alt="CSR 6" className="w-full h-70 object-cover" />
               </div>
             </div>
           </div>
@@ -138,9 +138,7 @@ export default function AboutPage() {
               <p className="text-gray-700 mb-6">Our core values recognize that our business success is founded upon a commitment to certain principles:</p>
 
             <div className="mt-4">
-            {/* Top row: 4 items */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              {/** Item */}
               <div className="text-sm text-gray-700">
                 <div className="text-xs text-gray-400 mb-3">01</div>
                 <div className="border-t border-gray-200 pt-4">
@@ -223,7 +221,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {/* Card 1 */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={600} height={800} className="w-full h-96 object-cover" />
+                <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Olukayode Ramos</div>
                   <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
@@ -232,7 +230,7 @@ export default function AboutPage() {
 
               {/* Card 2 */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-96 object-cover" />
+                <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Daniel Monwuba</div>
                   <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
@@ -241,7 +239,7 @@ export default function AboutPage() {
 
               {/* Card 3 */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-96 object-cover" />
+                <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
                   <div className="text-xs text-white/80">Group Project Manager</div>
@@ -251,7 +249,7 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Chukwuma.png" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-96 object-cover" />
+                <Image src="/images/Chukwuma.png" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Chukwuma Chukwuekwu</div>
                   <div className="text-xs text-white/80">Group Head, Accounts & Finance</div>
@@ -259,7 +257,7 @@ export default function AboutPage() {
               </div>
 
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Ali.png" alt="Ahmed Ali" width={600} height={800} className="w-full h-96 object-cover" />
+                <Image src="/images/Ali.png" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Ahmed Ali</div>
                   <div className="text-xs text-white/80">Group Head, Human Resources & Corporate Services</div>
@@ -267,7 +265,7 @@ export default function AboutPage() {
               </div>
 
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Abubakar.png" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-96 object-cover" />
+                <Image src="/images/Abubakar.png" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Abubakar Ibrahim</div>
                   <div className="text-xs text-white/80">Head, Mineral Exploration</div>
@@ -277,7 +275,7 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Ishola.png" alt="Ishola Emmanuel Aderopo" width={500} height={700} className="w-full h-[35rem] object-cover" />
+                <Image src="/images/Ishola.png" alt="Ishola Emmanuel Aderopo" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Ishola Emmanuel Aderopo</div>
                   <div className="text-xs text-white/80">Plant Manager, Idowa Falola Coal Mines (IFCM), Delta State</div>
@@ -285,7 +283,7 @@ export default function AboutPage() {
               </div>
 
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Babatunde.png" alt="Babatunde Olanrewaju Emmanuel" width={520} height={800} className="w-full h-[35rem] object-cover" />
+                <Image src="/images/Babatunde.png" alt="Babatunde Olanrewaju Emmanuel" width={600} height={800} className="w-full h-[35rem] object-cover" />
                 <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <div className="text-white font-semibold">Engr. Babatunde Olanrewaju Emmanuel</div>
                   <div className="text-xs text-white/80">Plant Manager, Tunde Ramos Coal Mines (TRCM), Kogi State</div>
