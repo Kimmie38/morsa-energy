@@ -103,14 +103,14 @@ export default function AboutPage() {
                 <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-64 md:h-64 lg:h-64 object-cover" />
+                <img src="/images/gal5.png" alt="CSR 5" className="w-full h-[22rem] md:h-64 lg:h-[22rem] object-cover" />
               </div>
             </div>
 
             {/* Column 3 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-64 object-cover" />
+                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
                 <img src="/images/gal6.png" alt="CSR 6" className="w-full h-64 object-cover" />
